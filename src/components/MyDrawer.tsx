@@ -10,7 +10,7 @@ import {
     DrawerTrigger,
 } from "@/components/ui/drawer";
 
-const MyDrawer = () => {
+export const MyDrawer = () => {
     return (
         <Drawer>
             <DrawerTrigger>Open</DrawerTrigger>
@@ -29,5 +29,3 @@ const MyDrawer = () => {
         </Drawer>
     );
 };
-
-export default MyDrawer;

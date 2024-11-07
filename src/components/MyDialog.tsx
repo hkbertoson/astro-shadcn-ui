@@ -7,7 +7,7 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog"
 
-export default function DialogWrapper() {
+export const MyDialog = () => {
     return (
         <Dialog>
             <DialogTrigger>Open</DialogTrigger>
